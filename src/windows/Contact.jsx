@@ -19,10 +19,13 @@ const Contact = () => {
         />
         <h3>Let's connect</h3>
         <p>Send me a message and I'll get back to you as soon as possible.</p>
-        <div className="flex items-center gap-2">
+        <a
+          href="mailto:mohammadarbaz320@gmail.com"
+          className="flex items-center gap-2 hover:underline"
+        >
           <Mail size={20} />
           <p>mohammadarbaz320@gmail.com</p>
-        </div>
+        </a>
 
         <ul>
           {socials.map(({ id, bg, link, icon, text }) => (
