@@ -1,16 +1,64 @@
-# React + Vite
+# Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive portfolio website built with React, Vite, and TailwindCSS, featuring smooth animations powered by GSAP.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Responsive Design**: Fully responsive layout that looks great on all devices.
+- **Interactive UI**: Smooth animations and transitions using GSAP.
+- **State Management**: Efficient state management with Zustand.
+- **PDF Resume**: Integrated PDF viewer for displaying resumes.
+- **Modern Styling**: Styled with TailwindCSS for a clean and modern look.
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Framework**: [React](https://react.dev/)
+- **Build Tool**: [Vite](https://vitejs.dev/)
+- **Styling**: [TailwindCSS](https://tailwindcss.com/)
+- **Animations**: [GSAP](https://gsap.com/)
+- **State Management**: [Zustand](https://github.com/pmndrs/zustand)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **PDF Viewer**: [React-PDF](https://github.com/wojtekmaj/react-pdf)
 
-## Expanding the ESLint configuration
+## 📦 Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1.  **Clone the repository:**
+
+    ```bash
+    git clone https://github.com/yourusername/main-portfolio.git
+    cd main-portfolio
+    ```
+
+2.  **Install dependencies:**
+
+    ```bash
+    npm install
+    ```
+
+## 💻 Usage
+
+1.  **Start the development server:**
+
+    ```bash
+    npm run dev
+    ```
+
+2.  **Build for production:**
+
+    ```bash
+    npm run build
+    ```
+
+3.  **Preview the production build:**
+
+    ```bash
+    npm run preview
+    ```
+
+## 🤝 Contributing
+
+Contributions are welcome! Please check out the [CONTRIBUTING.md](CONTRIBUTING.md) guide for more details.
+
+## 📄 License
+
+This project is licensed under the MIT License.
